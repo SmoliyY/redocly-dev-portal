@@ -36,6 +36,8 @@ training:
         page: developer-portal/oas-definitions.md
       - label: Preview PR
         page: developer-portal/preview.md
+      - label: Custom Fetch Component
+        page: developer-portal/custom-fetch-component.mdx
       - label: Adding an API response to an MDX page
         page: developer-portal/mdx.mdx
       - label: Creating React components
