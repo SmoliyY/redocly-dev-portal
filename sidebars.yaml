@@ -34,10 +34,13 @@ training:
         page: developer-portal/home-page.md
       - label: Adding API reference docs
         page: developer-portal/oas-definitions.md
+      - label: Preview PR
+        page: developer-portal/preview.md
       - label: Adding an API response to an MDX page
         page: developer-portal/mdx.mdx
       - label: Creating React components
         page: developer-portal/custom-component.mdx
+
   - group: Petstore reference
     expanded: false
     pages:
