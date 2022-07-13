@@ -1,3 +1,0 @@
-lint: 
-  rules: 
-    operation-summary: error
