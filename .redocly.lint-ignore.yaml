@@ -1,0 +1,12 @@
+# This file instructs Redocly's linter to ignore the rules contained for specific parts of your API.
+# See https://redoc.ly/docs/cli/ for more information.
+openapi/petstore.yaml:
+  operation-summary:
+    - '#/paths/~1pet/post/summary'
+  operation-4xx-response:
+    - '#/paths/~1pet~1{petId}~1uploadImage/post/responses'
+    - '#/paths/~1store~1inventory/get/responses'
+    - '#/paths/~1user/post/responses'
+    - '#/paths/~1user~1createWithArray/post/responses'
+    - '#/paths/~1user~1createWithList/post/responses'
+    - '#/paths/~1user~1logout/get/responses'
