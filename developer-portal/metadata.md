@@ -1,3 +1,6 @@
+---
+permission: admin:read
+---
 # Metadata
 
 ## Change the website metadata

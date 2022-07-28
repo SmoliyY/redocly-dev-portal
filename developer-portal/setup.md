@@ -1,3 +1,6 @@
+---
+permission: developer:read
+---
 # Install the developer portal
 
 ## Clone

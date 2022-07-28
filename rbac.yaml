@@ -1,0 +1,17 @@
+
+defaultPermission: "guest"
+
+roles:
+  Reader:
+    permissions:
+      - read
+  Developer:
+    roles:
+      - Reader
+    permissions:
+      - developer:read
+  Administrator:
+    roles:
+      - Developer
+    permissions:
+      - admin:read
