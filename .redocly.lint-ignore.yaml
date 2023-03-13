@@ -1,0 +1,14 @@
+# This file instructs Redocly's linter to ignore the rules contained for specific parts of your API.
+# See https://redoc.ly/docs/cli/ for more information.
+# openapi/Order.yaml:
+#   must-provide-mandatory-properties#object-description assertion:
+#     - '#/description'
+
+openapi/petstore.yaml:
+  must-provide-mandatory-properties#object-description assertion:
+    - '#/components/schemas/Foo/description'
+  no-unused-components:
+    - '#/components/schemas/Foo'
+https://gist.githubusercontent.com/nalesnichok/97351d9860f85170e7df28a89e9f2481/raw/644b2be5caf63ca569ad1aaf849f3e45bb6b273f/petstore.yaml:
+  must-provide-mandatory-properties#object-description assertion:
+    - '#/components/schemas/Order/description'

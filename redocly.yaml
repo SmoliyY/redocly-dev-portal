@@ -1,0 +1,23 @@
+extends:
+  - minimal
+rules:
+  operation-operationId: off
+  no-empty-servers: off
+  operation-summary: off
+  security-defined: off
+  no-unresolved-refs: off
+  assert/must-provide-mandatory-properties#object-description:
+    where:
+      - subject:
+          type: Schema
+          property: type
+        assertions:
+          enum:
+            - object
+    subject:
+      type: Schema
+      property: description
+    assertions:
+      nonEmpty: true
+    message: Object description must be set.
+    severity: error
