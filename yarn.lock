@@ -1734,8 +1734,8 @@
 
 "@redocly/developer-portal@1.1.0-beta.123.patch.1":
   version "1.1.0-beta.123.patch.1"
-  resolved "http://3.236.95.236:8000/@redocly%2fdeveloper-portal/-/developer-portal-1.1.0-beta.123.patch.1.tgz#408d7092976bfe76a668a636d66daa6738d40108"
-  integrity sha512-2yEPmgEBVXi7T8/98O6ZshxP6JLPst0/OwGWN5y918QTIALWGrPCIt3rtODA4wIE5bb4Vew3Qtd2dk+bIWK36A==
+  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.123.patch.1.tgz#6cc7385570556d5c0d3fcb80827814bdebca2461"
+  integrity sha512-SRd/vKAfAGtZzG6M4+1stc3k/yLFi15xBPd6Esefybo0ck9G/nklBmxg4RNLUFbMpJU9dkjC1cYbt7QEFZ8sgw==
   dependencies:
     "@mdx-js/mdx" "0.19.0"
     "@mdx-js/tag" "0.20.3"
