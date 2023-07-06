@@ -11,7 +11,7 @@ training:
         page: developer-portal/awesome/folders.md
       - label: Mermaid diagrams
         page: developer-portal/mermaid.md
-      - label: Page table of contents
+      - label: Page table of content
         page: developer-portal/page-table-of-contents.md
       - separator: This is a separator
       - label: Sidebar navigation
