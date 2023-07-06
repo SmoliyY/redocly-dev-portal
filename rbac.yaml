@@ -12,6 +12,6 @@ roles:
       - developer:read
   Administrator:
     roles:
-      - Developer
+      - Develo
     permissions:
       - admin:read
