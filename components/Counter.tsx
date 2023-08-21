@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 export function Counter() {
-  const [count, setCount] = React.useState(2);
+  const [count, setCount] = React.useState(3);
 
   return (
     <div style={{ border: '1px solid red', padding: '10px' }}>
